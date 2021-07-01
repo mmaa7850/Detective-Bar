@@ -1,0 +1,142 @@
+
+
+//container
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+// a
+a{
+    text-decoration: none;
+}
+.a-primary{
+    color: rgba(63, 93, 69, 0.5) !important;
+}
+.a-primary:hover{
+    color: rgba(63, 93, 69, 0.7) !important;
+}
+.a-cart{
+    font-size: 18px;
+}
+
+// text
+.text-hide{
+    color: transparent;
+    border: 0;
+    font-size: 0;
+    text-shadow: none;
+    background-color: transparent;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+
+// bg, text color, border color
+.bg-primary-lighter{
+    background-color: $primary-200;
+}
+
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-primary-lighter{
+    color: $primary-200;
+}
+
+.text-primary-light{
+    color: $primary-500;
+}
+
+.border-primary-lighter{
+    border-color: $primary-200;
+}
+
+// btn
+.btn-primary-lighter{
+    background-color: $primary-200;
+    color: #212529;
+    border-color: $primary-200;
+}
+
+.btn-primary-lighter:hover{
+    background-color: #d4e0da;
+    border-color: #ccdbd4;
+}
+
+.btn-soical{
+    background-color: #fff;
+    border-color: $primary-200;
+}
+
+//navbar-custom
+.nav-link.checkout{
+    color: #EAF0ED;
+    margin: 0;
+}
+.nav-link.checkout.active{
+    color: $primary !important;
+    background-color: #EAF0ED !important;
+}
+.nav-item.checkout{
+    border: 1px solid #EAF0ED;
+}
+
+
+// four sides
+.four-sides{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.z-index-1{
+    z-index: -1;
+}
+
+// write-mode
+.writing-vertical{
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+}
+.writing-md-vertical{
+    @include media-breakpoint-up(md){
+        -webkit-writing-mode: vertical-rl;
+            -ms-writing-mode: tb-rl;
+                writing-mode: vertical-rl;
+    }
+}
+
+figure{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+
+.margin-wrap{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+//form
+.form-select{
+    -moz-appearance:none !important;
+         appearance:none !important;
+    -webkit-appearance: none !important;
+  }
+
+//credit-card-icon
+  .credit-card{
+      position: absolute;
+      top: 24px;
+      right: 22px;
+  }

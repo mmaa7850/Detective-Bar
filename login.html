@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>偵探合作社</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container">
+            <!--漢堡選單-->
+            <button class="navbar-toggler d-md-none d-flex align-items-center border-0" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars collapse-icon a-primary"></i>
+            </button>
+
+            <a class="navbar-brand" href="index.html">
+
+                <img src="images/logo.svg" alt="" width="220px" width="40px" class="d-none d-md-inline">
+                <img src="images/sm-logo-title.png" alt="" class="d-md-none d-inline-block">
+              </a>
+              <a href="cart.html" class="nav-link d-flex align-items-center order-md-1">
+                <i class="fas fa-shopping-cart a-cart"></i>
+              </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ms-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link a-primary text-primary" aria-current="page" href="index.html">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-primary text-primary " href="product.html">甜點</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary active" href="login.html">登入</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="container px-0 px-md3 my-md-6">
+        <div class="row g-0 justify-content-center">
+            <div class="col-md-10">
+                <div class="p-5 bg-primary d-md-none">
+                    <h1 class="text-white text-center my-2">會員登入</h1>
+                </div>
+                <div class="row g-0 flex-md-row-reverse">
+                    <div class="col-md-6 py-md-3">
+                        <div class="bg-primary-lighter p-5">
+                            <h2 class="h4 text-primary-light text-center mb-5 d-md-block d-none">—— 連結社群帳號 ——</h2>
+                            <div class="row g-0">
+                                <div class="col-4 col-md-12 mb-md-4 d-grid">
+                                    <button class="btn btn-soical btn-lg py-3">
+                                        <img src="images/ic-facebook-logotype.svg" alt="" width="108px"
+                                            class="img-fluid">
+                                    </button>
+                                </div>
+                                <div class="col-4 col-md-12 mb-md-4 d-grid">
+                                    <button class="btn btn-soical btn-lg py-3">
+                                        <img src="images/ic-google.svg" alt="" width="108px" class="img-fluid">
+                                    </button>
+                                </div>
+                                <div class="col-4 col-md-12 mb-md-4 d-grid">
+                                    <button class="btn btn-soical btn-lg py-3">
+                                        <img src="images/ic-yahoo.svg" alt="" width="108px" class="img-fluid">
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-primary p-5 d-none d-md-block">
+                            <h1 class="text-center text-white mt-2">會員登入</h1>
+                        </div>
+                        <div class="bg-primary p-5 pt-md-0">
+                            <div class="input-group form-square form-square-withicon d-flex justify-content-between mb-3">
+                                <label for="username" class="fas fa-user form-square-right text-primary"></label>
+                                <input type="text" id="username" class="form-control form-square"
+                                    placeholder="電子信箱/手機號碼">
+                            </div>
+                            <div class="input-group form-square form-square-withicon d-flex justify-content-between mb-3">
+                                <label for="username" class="fas fa-key form-square-right text-primary"></label>
+                                <input type="text" id="username" class="form-control form-square"
+                                    placeholder="請輸入使用者密碼">
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label text-white" for="flexCheckDefault">
+                                    記住我
+                                </label>
+                            </div>
+                        </div>
+                        <div class="d-grid">
+                            <button class="btn btn-accent text-primary btn-lg py-3 rounded-0">
+                                登入帳號
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="py-5 bg-primary">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-5 d-flex align-items-center justify-content-center justify-content-md-start mb-4 mb-md-0">
+              <i class="fas fa-book" style="font-size: 24px; color: #F2E4CA;"></i>
+              <span class="text-white h4 mb-0 mx-4">訂閱你我的推理郵件</span>
+            </div>
+    
+            <div class="col-md-5">
+              <div class="input-group form-square form-square-withicon d-flex justify-content-between">
+                <label for="subscript" class="fas fa-envelope form-square-right text-primary"></label>
+                <input type="text" id="subscript" class="form-control form-square">
+                <button class="btn btn-lg btn-accent d-flex align-items-center">
+                  <i class="fas fa-arrow-right text-primary"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <footer class="py-4 bg-primary-lighter">
+        <div class="container">
+          <div class="row justify-content-center text-primary">
+            <div class="col-md-5 d-flex flex-column justify-content-between">
+              <div>
+                <img src="images/sm-logo.png" height="27px" alt="">
+              </div>
+              <div>
+                <ul class="list-unstyled mt-5">
+                  <li>07-1234-5678</li>
+                  <li>mystery@email.com</li>
+                  <li>800 高雄市新興路幸福路 520 號</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-5 text-end d-none d-md-block">
+              <img src="images/sm-今天是個看小說的好日子.png " alt="">
+            </div>
+          </div>
+          <div class="row justify-content-center mt-5 text-primary">
+            <div class="col-md-5">
+              <img src="images/ic-line@.svg" alt="" width="32px" height="32px">
+              <img src="images/ic-facebook.svg" alt="" width="32px" height="32px">
+            </div>
+            <div class="col-md-5 text-end mt-2">
+              <span>© 2021 Sweetaste* All Rights Reserved</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
